@@ -2,13 +2,13 @@
 
 **Data ID Card** is a mobile component of HOPEX Information Architecture. It enables anyone to consult Data Asset inventory in a HOPEX repository.
 
-![App ID Card App icon](images/QSG-AppLogo.png) 
+![Data ID Card App icon](images/QSG-DataLogo.png) 
 
 ## Sign In
 
 After the [Installation of Data ID Card], open **Data ID Card** App or, with Google Chrome (for instance), browse to the **Data ID Card** URL. The following login page opens.
 
-![login page on a tablet](images/QSG-TabletLoginPage.png)  ![login page](images/QSG-PhoneLoginPage.png)
+![login page](images/QSG-PhoneLoginPage.png)
 
 Enter your **Username** and **Password** (the same as when in **HOPEX IA**) then tab **Sign In**. The Search page opens.
 
@@ -16,18 +16,18 @@ Enter your **Username** and **Password** (the same as when in **HOPEX IA**) then
 
 Search page presents one tab to select which Term defined by Data asset you want to look for.
 
-![Search pages for application and technology](images/QSG-SearchPages.png)
+![Search pages Data](images/QSG-SearchTermPage1.png)(images/QSG-SearchTermPage2.png)
  
 If you have already made some searches, the page presents the list of the last 15 consulted items.
 
-![Search pages with historic](images/QSG-SearchPagesWithHistoric.png)
+![Search pages with historic](images/QSG-LastViewedPage.png)
 
 ## Data Search
 
 To search for a Data, start typing some characters in the search field. Those characters will be searched in the name of all defined terms of the repository in the current language .
 
 
-![Application Search](images/QSG-SearchPageApplication.png)
+![Data Search](images/QSG-SearchPagePage.png)
 
 Selecting a Business Data in the result list will open Data ID Card with different sections:
 - Business Data Main Characteristics
@@ -35,7 +35,7 @@ Selecting a Business Data in the result list will open Data ID Card with differe
 - Responsibility
 - Usage
 
-![Application Page](images/QSG-ApplicationPage.png)
+![Data Pages](images/QSG-DataPage.png)(images/QSG-DataScopePage.png)(images/QSG-DataResponsiblePage.png)(images/QSG-DataUsagePage.png)
 
 
 ## Favorite Management

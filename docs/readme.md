@@ -16,7 +16,8 @@ Enter your **Username** and **Password** (the same as when in **HOPEX IA**) then
 
 Search page presents one tab to select which Term defined by Data asset you want to look for.
 
-![Search pages Data](images/QSG-SearchTermPage1.png)(images/QSG-SearchTermPage2.png)
+![Search pages Data](images/QSG-SearchTermPage1.png)
+![Search pages Data](images/QSG-SearchTermPage2.png)
  
 If you have already made some searches, the page presents the list of the last 15 consulted items.
 
@@ -35,7 +36,10 @@ Selecting a Business Data in the result list will open Data ID Card with differe
 - Responsibility
 - Usage
 
-![Data Pages](images/QSG-DataPage.png)(images/QSG-DataScopePage.png)(images/QSG-DataResponsiblePage.png)(images/QSG-DataUsagePage.png)
+![Data Pages](images/QSG-DataPage.png)
+![Data Pages](images/QSG-DataScopePage.png)
+![Data Pages](images/QSG-DataResponsiblePage.png)(images/QSG-DataUsagePage.png)
+![Data Pages](images/QSG-DataUsagePage.png)
 
 
 ## Favorite Management

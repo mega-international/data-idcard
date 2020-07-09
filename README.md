@@ -15,8 +15,7 @@ Using Data ID Card it is possible to:
 
 ![Search pages for Data](docs/images/QSG-SearchPage.png)
 ![Search pages with historic](docs/images/QSG-LastViewedPage.png)
-
-![Data Search](docs/images/QSG-SearchTermPage.png)
+![Data Search](docs/images/QSG-SearchTermPage2.png)
 ![Data Page](docs/images/QSG-DataPage.png)
 
 ![Favorites Management](docs/images/QSG-FavoritesManagement.png)

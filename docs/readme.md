@@ -72,7 +72,7 @@ To put **Data ID Card** as a shortcut on your Home screen, do the following:
 1.	Browse to **Data ID Card** URL in Samsung Internet
 1.	Then :
 	- On the the address bar 
-		- Tap on the **download sign** ![install on android](images/QSG-SamsungLoginPage.png)  
+		- Tap on the **download sign** 
 	- Or on the Samsung Internet menu 
 	1.	Tap on **+ Add page to**
 	1.	Select **Apps Screen** on the popup window

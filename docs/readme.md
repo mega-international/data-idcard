@@ -1,6 +1,7 @@
 # Data ID Card Quick Start Guide
 
 **Data ID Card** is a mobile component of HOPEX Information Architecture. It enables anyone to consult Data Asset inventory in a HOPEX repository.
+Data Id Card allows you to search the data from the names of the terms in the business dictionaries of the repository. This provides access to the business data which defines the term, its characteristics, its responsibles, its functional scope, its realization and their uses in application assets invetories.
 
 ![Data ID Card App icon](images/QSG-DataLogo.png) 
 

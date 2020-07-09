@@ -11,8 +11,7 @@ Using Data ID Card it is possible to:
 - Navigate from an application to technologies it is using or from a technology to applications using it.
 - Declare a business Data as a favorite to accelerate frequent consultation.
 
-![login](docs/images/QSG-TabletLoginPage.png
-)
+![login](docs/images/QSG-PhoneLoginPage.png)
 
 ![Search pages for Data](docs/images/QSG-SearchPage.png)
 ![Search pages with historic](docs/images/QSG-LastViewedPage.png)

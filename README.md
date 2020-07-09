@@ -12,13 +12,10 @@ Using Data ID Card it is possible to:
 - Declare a business Data as a favorite to accelerate frequent consultation.
 
 ![login](docs/images/QSG-PhoneLoginPage.png)
-
 ![Search pages for Data](docs/images/QSG-SearchPage.png)
 ![Search pages with historic](docs/images/QSG-LastViewedPage.png)
-
 ![Data Search](docs/images/QSG-SearchTermPage.png)
 ![Data Page](docs/images/QSG-DataPage.png)
-
 ![Favorites Management](docs/images/QSG-FavoritesManagement.png)
 ![Information Menu](docs/images/QSG-InformationMenu.png)
 

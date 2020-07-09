@@ -25,7 +25,7 @@ If you have already made some searches, the page presents the list of the last 1
 
 To search for a Data, start typing some characters in the search field. Those characters will be searched in the name of all defined terms of the repository in the current language.
 
-![Data Search](images/QSG-SearchPagePage.png)
+![Search pages Data](images/QSG-SearchPagePage.png)
 
 Selecting a Business Data in the result list will open Data ID Card with different sections:
 - Business Data Main Characteristics
@@ -37,7 +37,6 @@ Selecting a Business Data in the result list will open Data ID Card with differe
 ![Data Pages](images/QSG-DataScopePage.png)
 ![Data Pages](images/QSG-DataResponsiblePage.png)(images/QSG-DataUsagePage.png)
 ![Data Pages](images/QSG-DataUsagePage.png)
-
 
 ## Favorite Management
 

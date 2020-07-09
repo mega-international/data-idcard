@@ -23,10 +23,7 @@ If you have already made some searches, the page presents the list of the last 1
 
 ![Search pages with historic](images/QSG-LastViewedPage.png)
 
-## Data Search
-
-To search for a Data, start typing some characters in the search field. Those characters will be searched in the name of all defined terms of the repository in the current language .
-
+To search for a Data, start typing some characters in the search field. Those characters will be searched in the name of all defined terms of the repository in the current language.
 
 ![Data Search](images/QSG-SearchPagePage.png)
 

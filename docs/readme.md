@@ -18,7 +18,7 @@ Search page presents one tab to select which Term defined by Data asset you want
 
 ![Search pages Data](images/QSG-SearchTermPage1.png)
 ![Search pages Data](images/QSG-SearchTermPage2.png)
-![Search pages Data](images/QSG-SearchPagePage.png)
+![Search pages Data](images/QSG-SearchPage.png)
 
 To search for a Data, start typing some characters in the search field. Those characters will be searched in the name of all defined terms of the repository in the current language.
 

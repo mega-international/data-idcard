@@ -34,7 +34,7 @@ Selecting a Business Data in the result list will open Data ID Card with differe
 
 ![Data Pages](images/QSG-DataPage.png)
 ![Data Pages](images/QSG-DataScopePage.png)
-![Data Pages](images/QSG-DataResponsiblePage.png)(images/QSG-DataUsagePage.png)
+![Data Pages](images/QSG-DataResponsiblePage.png)
 ![Data Pages](images/QSG-DataUsagePage.png)
 
 ## Favorite Management

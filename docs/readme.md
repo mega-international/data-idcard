@@ -18,14 +18,12 @@ Search page presents one tab to select which Term defined by Data asset you want
 
 ![Search pages Data](images/QSG-SearchTermPage1.png)
 ![Search pages Data](images/QSG-SearchTermPage2.png)
- 
-If you have already made some searches, the page presents the list of the last 15 consulted items.
-
-![Search pages with historic](images/QSG-LastViewedPage.png)
+![Search pages Data](images/QSG-SearchPagePage.png)
 
 To search for a Data, start typing some characters in the search field. Those characters will be searched in the name of all defined terms of the repository in the current language.
 
-![Search pages Data](images/QSG-SearchPagePage.png)
+If you have already made some searches, the page presents the list of the last 15 consulted items.
+![Search pages with historic](images/QSG-LastViewedPage.png)
 
 Selecting a Business Data in the result list will open Data ID Card with different sections:
 - Business Data Main Characteristics

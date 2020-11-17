@@ -6,6 +6,7 @@ To deploy and use Data ID Card you need:
 
 - HOPEX V3 CP4 minimum
 - Install **HOPEX Graphql**. You can download it from [HOPEX store](https://community.mega.com/t5/HOPEX-Store/GraphQL-REST-API/td-p/21381).
+- Import **IA Data Reader Configuration.mol** file from this location "C:\inetpub\wwwroot\data-idcard\config\.."
 - **HTTPS** is mandatory since **Data ID Card** is a [PWA](https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures).
 - [URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite)  Extension for IIS
 - Browser minimum version [please check](https://caniuse.com/#feat=serviceworkers)

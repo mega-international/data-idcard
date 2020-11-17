@@ -1,0 +1,267 @@
+
+- RepositoryLogExport: 2020/07/08 10:28:56
+- File: C:\Users\SNY\Desktop\IA Data Reader Configuration.mgl
+- Environment: C:\Users\Public\Documents\HOPEX V3\EnvTestsLab_787_505_tst_5576
+- Repository: SOHO
+- Login: SNY
+
+-  "WET Profile Assignment" "9C10A11F5EA10AD6"
+.Create ."~iN7EoNaIP555[WET Profile Assignment]" "9C10A11F5EA10AD6" -
+        .CHK "B11dV4QeUPj2e0SDsNpple00vNEC)4JGo400" -
+        ."~510000000L00[Creation Date]"                      "2020/04/23 14:07:27" -
+        ."~610000000P00[Modification Date]"                  "2020/07/08 09:55:41" -
+        ."~(10000000v30[Creator]"                            "j6L3BsG8kW60" -
+        ."~b10000000L20[Modifier]"                           "uOCkXgB1tG20" -
+        ."~520000000L40[Create Version]"                     "30837" -
+        ."~620000000P40[Update Version]"                     "30837" -
+        ."~a20000000H60[Language Update Date]"               "2020/04/28 13:01:03" -
+        ."~)20000000z70[Reading access area identifier]"     "sTlVwxdH3100" -
+        ."~rOcwckE07r00[Translation Requirement By Mega Doc]" "TR" -
+        ."~3yE7RzbLP1t7[Working Environment Template Profile Assignment Name]" "Data Reader / Information Architecture / Universal Explorer"
+
+-  "Profile" "IA - Data Reader"
+.Create ."~c20000000Q20[Profile]" "IA - Data Reader" -
+        .CHK "s01dAwPeUbb2e0SDsNpple00vNEC)4JGo400" -
+        ."~510000000L00[Creation Date]"                      "2020/04/23 13:56:26" -
+        ."~610000000P00[Modification Date]"                  "2020/06/16 15:09:51" -
+        ."~(10000000v30[Creator]"                            "j6L3BsG8kW60" -
+        ."~b10000000L20[Modifier]"                           "N80OVf6cUrSA" -
+        ."~520000000L40[Create Version]"                     "30837" -
+        ."~620000000P40[Update Version]"                     "30837" -
+        ."~S30000000n90[Assignable]"                         "1" -
+        ."~wMHw2cE4yK00[Command Line]"                       "/HV'INFA,DMO,DBB,IDEA'" -
+        ."~a20000000H60[Language Update Date]"               "2020/04/23 14:01:12" -
+        ."~c4Z7zM2OxaL0[LanguageUpdateDate (English)]"       "2020/06/16 09:10:31" -
+        ."~K4Z7qM2Ox0L0[LanguageUpdateDate (Français)]"      "2020/06/16 15:09:51" -
+        ."~FpDyR5uj6WZC[Name (English)]"                     "Data Reader" -
+        ."~ZoDyR5uY6WZC[Name (Français)]"                    "Consultation Données" -
+        ."~Y88SKB7yKjtA[Profile Status]"                     "1" -
+        ."~)20000000z70[Reading access area identifier]"     "sTlVwxdH3100" -
+        ."~rOcwckE07r00[Translation Requirement By Mega Doc]" "TR" -
+        ."~hXFYOdOKsC00[_GUIName]"                           "Data Reader" -
+        ."~uZFYKiOKs850[_GUIName (English)]"                 "Data Reader" -
+        ."~5WFYUfOKsO10[_GUIName (Français)]"                "Consultation Données"
+
+-  "Profile" "IA - Data Reader"
+.Update ."~c20000000Q20[Profile]" "IA - Data Reader" -
+        .CHK "s01dAwPeUbb2vNEC)4JGo400" -
+        ."~610000000P00[Modification Date]"                  "2020/06/16 15:09:51" -
+        ."~b10000000L20[Modifier]"                           "N80OVf6cUrSA" -
+        ."~c4Z7zM2OxaL0[LanguageUpdateDate (English)]"       "2020/06/16 09:10:31" -
+        ."~4mDyR58x6WZC[Comment (English)]" "LQDYO58M6tmC" 
+00680QMXKS21pPczoPMnfOMCWOY1kTI1bP6LpRtGWRsCWTNDk87HiPcvfRN9lQNHX86vl86vl
+00680PMXqOMGWB65qTNCW86XZ87DXPMXqPMGWRcbcQNHf86vl86PlScLq87Dj86vfPMXqTM8W
+00680RcbpStDbR6SWStDlUN9XT20i86LePNDrPcyWOMGW865q86vfPMXqTM8WRcbpStDbRqGW
+00562QM5j82nk86vfPMXqS64WQMnmT65ZRczfQI1pPNPkRtHkB7boT6KWBY1Z02uk
+.
+
+-  "Working Environment Template" "Information Architecture"
+-  "WET Profile Assignement" "9C10A11F5EA10AD6"
+.Connect ."~UKjauRfSMzYC[Working Environment Template]" "Information Architecture" ."~dL7EwYaIP1G5[WET Profile Assignement]" "9C10A11F5EA10AD6" -
+        .CHK "wrfqbETmMDJIB11dV4QeUPj2vNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/04/23 14:07:28" -
+        ."~810000000X00[Link modification date]"             "2020/04/23 14:07:28" -
+        ."~720000000T40[Link Creator]"                       "j6L3BsG8kW60" -
+        ."~920000000b40[Link Modifier]"                      "j6L3BsG8kW60" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Profile" "IA - Data Reader"
+-  "Available Working Environment Template" "Information Architecture"
+.Connect ."~c20000000Q20[Profile]" "IA - Data Reader" ."~B3kII8bfMfp1[Available Working Environment Template]" "Information Architecture" -
+        .CHK "s01dAwPeUbb2wrfqbETmMDJIvNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/04/23 14:02:36" -
+        ."~810000000X00[Link modification date]"             "2020/04/23 14:02:36" -
+        ."~720000000T40[Link Creator]"                       "j6L3BsG8kW60" -
+        ."~920000000b40[Link Modifier]"                      "j6L3BsG8kW60" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "System Element with Picture" "IA - Data Reader"
+-  "MetaPicture" "user_tweb"
+.Connect ."~D8wTFyxoE1UB[System Element with Picture]" "IA - Data Reader" ."~vBwTyQyoEHHC[MetaPicture]" "user_tweb" -
+        .CHK "s01dAwPeUbb2iB8)(80p6n10vNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/04/23 13:58:47" -
+        ."~810000000X00[Link modification date]"             "2020/04/23 13:58:47" -
+        ."~720000000T40[Link Creator]"                       "j6L3BsG8kW60" -
+        ."~920000000b40[Link Modifier]"                      "j6L3BsG8kW60" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Profile" "IA - Data Reader"
+-  "Sub Profile" "HOPEX Viewer Base"
+.Connect ."~c20000000Q20[Profile]" "IA - Data Reader" ."~O2000000Cm80[Sub Profile]" "HOPEX Viewer Base" -
+        .CHK "s01dAwPeUbb2vn9Hc76bPXK7vNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/06/16 08:28:22" -
+        ."~810000000X00[Link modification date]"             "2020/06/16 08:28:22" -
+        ."~720000000T40[Link Creator]"                       "N80OVf6cUrSA" -
+        ."~920000000b40[Link Modifier]"                      "N80OVf6cUrSA" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Profile" "IA - Data Reader"
+-  "Working Environment Template Profile Assignment" "9C10A11F5EA10AD6"
+.Connect ."~c20000000Q20[Profile]" "IA - Data Reader" ."~5L7EHOaIPf85[Working Environment Template Profile Assignment]" "9C10A11F5EA10AD6" -
+        .CHK "s01dAwPeUbb2B11dV4QeUPj2vNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/04/23 14:07:27" -
+        ."~810000000X00[Link modification date]"             "2020/04/23 14:07:28" -
+        ."~720000000T40[Link Creator]"                       "j6L3BsG8kW60" -
+        ."~920000000b40[Link Modifier]"                      "j6L3BsG8kW60" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Desktop Manager" "Universal Explorer"
+-  "WET Profile Assignment" "9C10A11F5EA10AD6"
+.Connect ."~eNI1ZR0EQX(M[Desktop Manager]" "Universal Explorer" ."~MKI1HV0EQLIN[WET Profile Assignment]" "9C10A11F5EA10AD6" -
+        .CHK "PHFle3iWQ1RTB11dV4QeUPj2vNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 09:55:37" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 09:55:37" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Tiles Homepage" "IA Homepage for IA Data Reader"
+.Create ."~KA6RrtP)KLi7[Tiles Homepage]" "IA Homepage for IA Data Reader" -
+        .CHK "mWIc5gP1VHCAC30000mCpCpCvNEC)4JGo400" -
+        ."~510000000L00[Creation Date]"                      "2020/07/08 10:05:57" -
+        ."~610000000P00[Modification Date]"                  "2020/07/08 10:12:11" -
+        ."~(10000000v30[Creator]"                            "uOCkXgB1tG20" -
+        ."~b10000000L20[Modifier]"                           "uOCkXgB1tG20" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840" -
+        ."~eB6RE7Q)Kjp7[Tile Homepage Color]"                "16118509" -
+        ."~eE6jrMBEL94M[Default Tile Color]"                 "12557949" -
+        ."~a20000000H60[Language Update Date]"               "2020/07/08 10:05:57" -
+        ."~c4Z7zM2OxaL0[LanguageUpdateDate (English)]"       "2020/07/08 10:05:57" -
+        ."~FpDyR5uj6WZC[Name (English)]"                     "IA Homepage for IA Data Reader" -
+        ."~)20000000z70[Reading access area identifier]"     "sTlVwxdH3100"
+
+
+-  "Working Environment Template" "Information Architecture"
+-  "Tiles Homepage" "IA Homepage for IA Data Reader"
+.Connect ."~UKjauRfSMzYC[Working Environment Template]" "Information Architecture" ."~fZZxAxkvMfQ9[Tiles Homepage]" "IA Homepage for IA Data Reader" -
+        .CHK "wrfqbETmMDJImWIc5gP1VHCAuOCkXgB1tG20" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:45:29" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:45:29" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "9999"
+
+
+
+-  "Profile" "IA - Data Reader"
+-  "Tiles Homepage" "IA Homepage for IA Data Reader"
+.Connect ."~c20000000Q20[Profile]" "IA - Data Reader" ."~DVw0lGo)KTb9[Tiles Homepage]" "IA Homepage for IA Data Reader" -
+        .CHK "s01dAwPeUbb2mWIc5gP1VHCAvNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:05:57" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:05:57" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Tiles Homepage" "IA Homepage for IA Data Reader"
+-  "Tiles" "PPM - New Idea"
+.Connect ."~KA6RrtP)KLi7[Tiles Homepage]" "IA Homepage for IA Data Reader" ."~S86RGAQ)Knw7[Tiles]" "PPM - New Idea" -
+        .CHK "mWIc5gP1VHCAwZuXUteDPnU1vNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:06:34" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:12:10" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "5" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Tiles Homepage" "IA Homepage for IA Data Reader"
+-  "Tiles" "Alerts Management"
+.Connect ."~KA6RrtP)KLi7[Tiles Homepage]" "IA Homepage for IA Data Reader" ."~S86RGAQ)Knw7[Tiles]" "Alerts Management" -
+        .CHK "mWIc5gP1VHCApGtwoT03Lf6avNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:06:46" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:12:10" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "10" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Tiles Homepage" "IA Homepage for IA Data Reader"
+-  "Tiles" "IA - Data Dictionaries"
+.Connect ."~KA6RrtP)KLi7[Tiles Homepage]" "IA Homepage for IA Data Reader" ."~S86RGAQ)Knw7[Tiles]" "IA - Data Dictionaries" -
+        .CHK "mWIc5gP1VHCA0OdzcfZ5Nz4EvNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:07:26" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:12:10" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "30" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Tiles Homepage" "IA Homepage for IA Data Reader"
+-  "Tiles" "IA - All Subject Areas"
+.Connect ."~KA6RrtP)KLi7[Tiles Homepage]" "IA Homepage for IA Data Reader" ."~S86RGAQ)Knw7[Tiles]" "IA - All Subject Areas" -
+        .CHK "mWIc5gP1VHCAYwCx2hmHNPFYvNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:09:09" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:12:10" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "20" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Tiles Homepage" "IA Homepage for IA Data Reader"
+-  "Background Image" "Tile Background Data"
+.Connect ."~KA6RrtP)KLi7[Tiles Homepage]" "IA Homepage for IA Data Reader" ."~tK(n8kSKL92S[Background Image]" "Tile Background Data" -
+        .CHK "mWIc5gP1VHCANBd5Bh2HNz3WvNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:12:11" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:12:11" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Set of UI Access Rights" "Data Reader"
+.Create ."~xxQ((5GeRHMT[Set of UI Access Rights]" "Data Reader" -
+        .CHK "ZYIcznP1VnJAC30000mCpCpCvNEC)4JGo400" -
+        ."~510000000L00[Creation Date]"                      "2020/07/08 10:14:21" -
+        ."~610000000P00[Modification Date]"                  "2020/07/08 10:14:21" -
+        ."~(10000000v30[Creator]"                            "uOCkXgB1tG20" -
+        ."~b10000000L20[Modifier]"                           "uOCkXgB1tG20" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840" -
+        ."~a20000000H60[Language Update Date]"               "2020/07/08 10:14:21" -
+        ."~c4Z7zM2OxaL0[LanguageUpdateDate (English)]"       "2020/07/08 10:14:21" -
+        ."~FpDyR5uj6WZC[Name (English)]"                     "Data Reader" -
+        ."~)20000000z70[Reading access area identifier]"     "sTlVwxdH3100"
+
+-  "Set of UI Access Rights" "Data Reader"
+-  "Profile" "IA - Data Reader"
+.Connect ."~xxQ((5GeRHMT[Set of UI Access Rights]" "Data Reader" ."~txQ(FuGeR5iT[Profile]" "IA - Data Reader" -
+        .CHK "ZYIcznP1VnJAs01dAwPeUbb2vNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:14:21" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:14:21" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"
+
+-  "Set of UI Access Rights" "Data Reader"
+-  "Used Set of UI Access Rights" "HOPEX Viewer Base"
+.Connect ."~xxQ((5GeRHMT[Set of UI Access Rights]" "Data Reader" ."~tvQ(R)GeRDtT[Used Set of UI Access Rights]" "HOPEX Viewer Base" -
+        .CHK "ZYIcznP1VnJAnK(fT3xeRjwRvNEC)4JGo400" -
+        ."~710000000T00[Link creation date]"                 "2020/07/08 10:14:44" -
+        ."~810000000X00[Link modification date]"             "2020/07/08 10:14:44" -
+        ."~720000000T40[Link Creator]"                       "uOCkXgB1tG20" -
+        ."~920000000b40[Link Modifier]"                      "uOCkXgB1tG20" -
+        ."~410000000H00[Order]"                              "9999" -
+        ."~520000000L40[Create Version]"                     "30840" -
+        ."~620000000P40[Update Version]"                     "30840"

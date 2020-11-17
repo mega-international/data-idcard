@@ -1,0 +1,84 @@
+/* Fonts */
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+}
+
+html, body, #app {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  font-size: 14px;
+  @apply font-montserrat bg-grey text-dark-blue;
+  scroll-behavior: smooth;
+}
+
+.pell-content {
+  height: auto !important;
+  min-height: 5rem !important;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s ease;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.sticky_sentinel {
+  position: absolute;
+  left: 0;
+  right: 0; /* needs dimensions */
+  visibility: hidden;
+  opacity: 0.2; /* Dev purpose */
+  z-index: 0;
+  background-color: yellow;
+}
+.sticky_sentinel--top {
+  /* Adjust the height and top values based on your on your sticky top position.
+  e.g. make the height bigger and adjust the top so observeHeaders()'s
+  IntersectionObserver fires as soon as the bottom of the sentinel crosses the
+  top of the intersection container. */
+  /* height: 4rem; */
+  /* top: -8rem; */
+  height: 2rem;
+  top: -1rem;
+}
+.sticky_sentinel--bottom {
+  /* Height should match the top of the header when it's at the bottom of the
+  intersection container. */
+  height: 4rem;
+  bottom: 0;
+}
+
+.router-link-exact-active,
+.router-link-active {
+  @apply font-bold text-white;
+}
+
+/* Tab transition */
+.slide-enter-active {
+  transition: all .2s ease;
+}
+.slide-leave-active {
+  transition: all .2s ease;
+}
+.slide-enter, .slide-leave-to
+/* .slide-leave-active below version 2.1.8 */ {
+  transform: translateX(-100vw);
+}

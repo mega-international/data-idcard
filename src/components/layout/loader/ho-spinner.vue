@@ -1,0 +1,102 @@
+<template>
+  <section
+    v-show="spinner.loading"
+    :class="[ transparent ? 'opacity-50' : 'opacity-100', !className ? 'fixed inset-0' : className ]"
+    class="bg-white z-50 flex items-center justify-center"
+    tabindex="-1">
+    <div class="loader"></div>
+  </section>
+</template>
+
+<script>
+import { mapState } from 'vuex';
+
+export default {
+  name: 'HoSpinner',
+  props: {
+    name: {
+      type: String,
+      default: 'default',
+    },
+    className: String,
+    transparent: Boolean
+  },
+  computed: {
+    ...mapState({
+      spinner(state) {
+        if (state.spinner[this.name]) {
+          return state.spinner[this.name];
+        }
+        return { loading: false };
+      }
+    }),
+  },
+  mounted() {
+    if (!this.$store.state.spinner[this.name]) {
+      this.$store.commit('registerSpinner', this.name);
+    }
+  },
+};
+</script>
+
+<style scoped>
+.loader,
+.loader:before,
+.loader:after {
+  @apply bg-magenta;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 2em;
+}
+.loader {
+  @apply text-magenta;
+  text-indent: -9999em;
+  margin: 88px auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 1em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 3em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 1em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 3em;
+  }
+}
+</style>

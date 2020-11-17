@@ -1,0 +1,24 @@
+{
+  "ROOT_API": "",                     "Comment of ROOT_API":     " root url of HOPEX no leading HOPEX no leading /",
+  "environmentId": "",                "Comment of environmentId":" Absolute identifier of the environment see megasite.ini and convert it",
+  "repositoryId": "",                 "Comment of repositoryId": " Absolute identifier of the repository  see megaenv.ini and convert it",
+  "profileId": "s01dAwPeUbb2",        "Comment of profileId":    " Absolute identifier of the default profile Data IdCard User s01dAwPeUbb2",
+  "client_id": "hopexapi",            "Comment of client_id":    " Authentication Client Id",
+  "client_secret": "secret",          "Comment of client_secret":" Authentication Client secret Set the secret of hopexapi check HOPEX configuration",
+  "title": "Data ID Card",
+  "app_prefix": "data_IdCard",            "Comment of app_prefix": "The prefix to be used for local storage",
+  "connectivity": {
+    "url": "https://www.google.com/images/phd/px.gif", "Comment of url":         "URL to ping in order to determine the network connectivity",
+    "timeToCount": "3",        "Comment of timeToCount": "The number of time we repeat the operation",
+    "threshold": "3000",       "Comment of threshold":   "The threshold at which we decide to be offline",
+    "interval": "20000",       "Comment of interval":    "The time between each repetition"
+  },
+  "API_timeout": 12000,         "Comment of API_timeout":  " Limit of time in ms, where the application switches to offline mode 0 will ignore",
+  "ASYNC_timeout": 6000,       "Comment of ASYNC_timeout":  " Limit of time in ms, where the API waits to give a response or a job ID",
+  "synchroInterval" : 6000,    "Comment of synchroInterval":"Time, in ms, between two synchronization with the server HOPEX",
+  "toast": {
+    "actionTextColor": "black",
+    "errorColor": "#EE2665",
+    "successColor": "#31B672"
+  }
+}
